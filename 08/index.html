@@ -2,61 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Box </title>
+    <title>Box Model </title>
 </head>
-    <style type="text/css">
+<style type="text/css">
 
-        .noticia{
-            font-family: "opensans-regular",arial,sans-serif;
-            background-color: #F5F5DC;
-            border: 1px solid black;
-            color: #333;
-            font-size: 16px;
-            padding-left: 15px;
-            padding-right: 10px;
-            text-align: justify;
-            line-height: 24px;
-            width: 500px;
-        }
+.noticia{
+    font-family: "opensans-regular",arial,sans-serif;
+    background-color: #F5F5DC;
+    border: 1px solid black;
+    color: #333;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: justify;
+    line-height: 24px;
+    width: 500px;
+    margin: 20px;
+    float: left;
 
-        .noticia h1 {
-            color: #c4170c;
-            font-family: "Helvetice Neue" , Arial,sans-serif;
-            margin: 8px;
-            float: left
-        }
-        
-        .container{
-            display: flex;
-            flex-wrap: wrap;
-        }
+}
 
-        .imagem{
-            float: right;
-            width: 200px;
-            padding: 10px;
-            float: left;
-        }
-    </style>
-   
-    
+.noticia h1{
+    color: #c1470c;
+    font-family: "Helvetice Neue" , Arial,sans-serif;
+    margin: 8px;
+}
+
+.imagem{
+    float: right;
+    width: 200px;
+    padding: 10px;
+    float: left;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+</style>
 <body>
-        <div class="noticia">
-            <h1>Titulo da Noticia</h1>
-            <img class="imagem" src="imagem/noticia.jpg">
+    <div class="container">
+     <div class="noticia">
+        
+        <h1>Titulo da Noticia</h1> <div id="menu"><a href="galeria.html">galeria</a></div>
 
-            <p >Ao contrário da crença popular, Lorem Ipsum não é simplesmente um texto aleatório. Tem raízes em uma obra da literatura latina clássica de 45 a.C., o que o torna com mais de 2000 anos. Richard McClintock, um professor de latim do Hampden-Sydney College, na Virgínia, pesquisou uma das palavras latinas mais obscuras, "consectetur", em uma passagem de Lorem Ipsum e, ao consultar as citações dessa palavra na literatura clássica, descobriu a fonte inquestionável. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 de "De Finibus Bonorum et Malorum" (Sobre os Fins dos Bens e dos Males), de Cícero, escrito em 45 a.C. Este livro é um tratado sobre a teoria da ética, muito popular durante o Renascimento. A primeira linha de Lorem Ipsum, "Lorem ipsum dolor sit amet...", vem de uma linha da seção 1.10.32.</p>
 
-        </div>
+        <img class="imagem" src="imagem/noticia.jpg">
+
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+        making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+        and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, 
+        sometimes on purpose (injected humour and the like).
+        </p>
+
+
+
+
+
+        
     
-    <div class="noticia h1">
-        <div>
-            <h1>Titulo da Noticia</h1>
-            <img class="imagem" src="imagem/noticia.jpg">
-            <P>Existem muitas variações de passagens de Lorem Ipsum disponíveis, mas a maioria sofreu alterações de alguma forma, seja pela inserção de humor ou por palavras aleatórias que não parecem minimamente plausíveis. Se você pretende usar uma passagem de Lorem Ipsum, precisa ter certeza de que não há nada constrangedor escondido no meio do texto. Todos os geradores de Lorem Ipsum na internet tendem a repetir trechos predefinidos conforme necessário, tornando este o primeiro gerador verdadeiramente original na internet. Ele utiliza um dicionário com mais de 200 palavras em latim, combinado com algumas estruturas de frases modelo, para gerar um Lorem Ipsum com aparência razoável. O Lorem Ipsum gerado é, portanto, sempre livre de repetições, humor inserido ou palavras não características, etc.</P>
 
-        </div>
+     </div>
+
+  <div class="noticia">
+
+        <h1>Titulo da Outra Noticia</h1>
+
+      <img class="imagem" src="imagem/noticia.jpg">
+
+         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+         making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+         and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+        sometimes on purpose (injected humour and the like)
+        </p>
+
+        
+
+
+
+
+
+
     </div>
 
-</body>
-</html>
+    </div>
+
+
+    </body>
+
+    </html>
